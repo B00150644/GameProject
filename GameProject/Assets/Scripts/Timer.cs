@@ -10,18 +10,25 @@ public class Timer : MonoBehaviour
     static float timer;
     public GameObject continueButton;
 
-    public Image[] stars; // Attach your star images in the inspector
+    public Image[] stars;
     public Text lapText;
 
     // Start is called before the first frame update
     void Start()
     {
         continueButton.SetActive(false);
+        ResetTimer(); // Resets timer per level
     }
 
     public void RestartGame()
     {
         SceneManager.LoadScene("SampleScene");
+        ResetTimer(); // Reset the timer when the game is restarted
+    }
+
+    void ResetTimer()
+    {
+        timer = 0.0f;
     }
 
     // Update is called once per frame
@@ -40,18 +47,12 @@ public class Timer : MonoBehaviour
         {
             RestartGame();
         }
-
-        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         lapText.text = "Lap: " + timerText.text;
-        timer = 0.0f;
-        
+        ResetTimer(); 
         continueButton.SetActive(true);
     }
-
- 
 }
-
