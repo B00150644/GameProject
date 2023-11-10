@@ -602,7 +602,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Skybox
+    - Assets/LowPolyEnviroPack_LITE_builtIn/BeachArea_Set1/Prefabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -610,30 +610,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Skybox
+  - Assets/LowPolyEnviroPack_LITE_builtIn/BeachArea_Set1/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\Desktop\Github\GameProject\GameProject\GameProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 37}
-    m_SelectedIDs: ac5d0000
-    m_LastClickedID: 23980
-    m_ExpandedIDs: 00000000925d0000a05d000000ca9a3b
+    scrollPos: {x: 0, y: 133}
+    m_SelectedIDs: 9c690300
+    m_LastClickedID: 223644
+    m_ExpandedIDs: 000000009e5d0000a25d0000786903007c6903008069030000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Scenes
+      m_OriginalName: Scenes
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 223624
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -674,8 +674,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300000c5b000000000000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c62300000c5b000000000000605d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -786,24 +786,24 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 66f0ffff94f5ffff30fbffff
+      scrollPos: {x: 0, y: 512}
+      m_SelectedIDs: 3cb0f9ff
+      m_LastClickedID: -413636
+      m_ExpandedIDs: 9eb1f9ffd49efbff88a7fbffdeaffbffe6b7fbff68bffbff1ec4fbff02d1fbfffad8fbff22e1fbff20eefbff16f0fbffe6f5fbff5afdfbff4451fdff6a58fdffbe5ffdff3e67fdfff46efdff1676fdff9c7dfdffd084fdff248cfdff5a93fdff1a9cfdff64b4fdffdcbcfdff42c4fdfff4cbfdffecd2fdfffad9fdff4412feff7e15feff6e3bfeff6c4efeffaa4efeff2850feff5c59feff8060feffe062feff30fbffffd05b0000325c0000489801006e980100b09b010006d7010014db0100242002001c2c0200282e020042bb020004c30200c6ca0200420903004e0b0300a81d03008c21030014310300d6380300b83c03007e44030088460300a246030060480300fe480300e0a8030004c603003cc70300ced70400
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Wall (13)
+        m_OriginalName: Wall (13)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -357312
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -1143,9 +1143,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 89.09281, y: -23.745068, z: 171.6923}
+    m_Target: {x: 362.0312, y: -77.07784, z: 46.169334}
     speed: 2
-    m_Value: {x: 89.09281, y: -23.745068, z: 171.6923}
+    m_Value: {x: 362.0312, y: -77.07784, z: 46.169334}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1191,20 +1191,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.13291559, y: -0.16925935, z: 0.023040049, w: -0.97629774}
+    m_Target: {x: 0.1662071, y: 0.36863253, z: -0.06744883, w: 0.9123228}
     speed: 2
-    m_Value: {x: -0.13584365, y: -0.16918918, z: 0.023547687, w: -0.97589296}
+    m_Value: {x: 0.16627508, y: 0.36719075, z: -0.06718611, w: 0.9126936}
   m_Size:
-    m_Target: 109.514854
+    m_Target: 209.68353
     speed: 2
-    m_Value: 109.514854
+    m_Value: 200.6541
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.58070993
-    m_SpeedNormalized: 0.28999996
+    m_Speed: 0.94052994
+    m_SpeedNormalized: 0.46999997
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1215,7 +1215,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.108699225, y: -0.25996795, z: 0.029327761, w: 0.9591822}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
