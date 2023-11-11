@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     public Text timerText;
-    static float timer;
+    float timer; // Remove 'static' keyword
     public GameObject continueButton;
 
     public Image[] stars;
@@ -31,10 +31,9 @@ public class Timer : MonoBehaviour
         timer = 0.0f;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
+        timer += Time.deltaTime; // Use Time.deltaTime to increment the timer
 
         int minutes = Mathf.FloorToInt(timer / 60);
         int seconds = Mathf.FloorToInt(timer - minutes * 60);
@@ -52,7 +51,7 @@ public class Timer : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         lapText.text = "Lap: " + timerText.text;
-        ResetTimer(); 
+        ResetTimer();
         continueButton.SetActive(true);
     }
 }
