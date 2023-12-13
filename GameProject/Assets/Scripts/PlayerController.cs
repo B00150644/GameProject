@@ -59,9 +59,9 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         //When car hits wall - audio and particles
-        if (collision.gameObject.name == "Wall")
+        if (collision.gameObject.CompareTag("Wall"))
         {
-            float bounce = 4050f;
+            float bounce = 550f;
             playerRb.AddForce(collision.contacts[0].normal * bounce);
             explosionParticle.Play();
             playerAudio.PlayOneShot(crashSound, 1.0f);
@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
         //car enters spawn manager and powerup spawns
         if (other.gameObject.CompareTag("Spawn1"))
         {
-            SpawnPowerup(transform.position + transform.forward * 15.0f);
+            SpawnPowerup(transform.position + transform.forward * 20.0f);
         }
 
         //powerup speed boost and cooldown

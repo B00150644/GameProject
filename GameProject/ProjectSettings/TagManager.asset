@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Powerup
   - Spawn1
+  - Obstacle
+  - Ball
+  - Wall
+  - Road
   layers:
   - Default
   - TransparentFX

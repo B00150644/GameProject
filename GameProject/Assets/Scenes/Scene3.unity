@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (09)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -196,6 +200,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -259,6 +267,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
   m_PrefabInstance: {fileID: 310384729}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &13295167 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+  m_PrefabInstance: {fileID: 896023580}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &20788057 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
@@ -275,6 +288,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (147)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -419,6 +436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 9
@@ -502,6 +523,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -590,7 +615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4889573618505782537, guid: 89ef373673b05894fb8d725b41657b83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -335.21
+      value: -281.68
       objectReference: {fileID: 0}
     - target: {fileID: 4889573618505782537, guid: 89ef373673b05894fb8d725b41657b83, type: 3}
       propertyPath: m_LocalRotation.w
@@ -634,7 +659,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4889573618505782537, guid: 89ef373673b05894fb8d725b41657b83, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2107967758}
+    - targetCorrespondingSourceObject: {fileID: 1916099382319335109, guid: 89ef373673b05894fb8d725b41657b83, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2014261383}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5228839559988039603, guid: 89ef373673b05894fb8d725b41657b83, type: 3}
       insertIndex: -1
@@ -642,6 +673,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5228839559988039603, guid: 89ef373673b05894fb8d725b41657b83, type: 3}
       insertIndex: -1
       addedObject: {fileID: 720217564}
+    - targetCorrespondingSourceObject: {fileID: 5228839559988039603, guid: 89ef373673b05894fb8d725b41657b83, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 720217567}
     - targetCorrespondingSourceObject: {fileID: 8568331012912643298, guid: 89ef373673b05894fb8d725b41657b83, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1287095584}
@@ -815,6 +849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 24
@@ -893,6 +931,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (209)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -1018,6 +1060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1034,6 +1080,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (143)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -1154,6 +1204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1231,6 +1285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corner
       objectReference: {fileID: 0}
+    - target: {fileID: 7442794224487470407, guid: 02e39039ff6cd1041997b7c2888a055b, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1292,6 +1350,10 @@ PrefabInstance:
     - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
       propertyPath: m_Name
       value: RaceTrackStraight 1 (07)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1378,6 +1440,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -6423,6 +6489,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -6491,6 +6561,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -6566,6 +6640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 24
@@ -6623,11 +6701,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
---- !u!4 &128951518 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-  m_PrefabInstance: {fileID: 1901684288}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &130111790 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4429112058861696, guid: b3bc9a448b1c59b4d90985e7f69c448f, type: 3}
@@ -6644,6 +6717,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (113)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -6719,6 +6796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 24
@@ -6787,6 +6868,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -6902,6 +6987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7007,6 +7096,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (178)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -7159,6 +7252,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4429112058861696, guid: b3bc9a448b1c59b4d90985e7f69c448f, type: 3}
   m_PrefabInstance: {fileID: 786358481}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &172471807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1742899641471652, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_Name
+      value: SelectionRing_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742899641471652, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428908044626120, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428908044626120, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: -0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428908044626120, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428908044626120, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -65.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428908044626120, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428908044626120, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -335.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428908044626120, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428908044626120, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428908044626120, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428908044626120, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428908044626120, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428908044626120, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428908044626120, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
 --- !u!1001 &178259652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7170,6 +7336,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (197)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -7245,6 +7415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -7313,6 +7487,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (164)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -7452,6 +7630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (122)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 9
@@ -7525,6 +7707,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -7757,6 +7943,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -8046,6 +8236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 4
@@ -8160,6 +8354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8222,6 +8420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8238,6 +8440,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -8377,6 +8583,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
@@ -8444,11 +8654,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
   m_PrefabInstance: {fileID: 1604140343}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &229081499 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-  m_PrefabInstance: {fileID: 1878097982}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &235268332 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4429112058861696, guid: b3bc9a448b1c59b4d90985e7f69c448f, type: 3}
@@ -8470,6 +8675,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -8826,6 +9035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
@@ -8894,6 +9107,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (171)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -8968,6 +9185,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (111)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -9078,6 +9299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9099,6 +9324,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -9178,6 +9407,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -9317,6 +9550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -9390,6 +9627,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -9465,6 +9706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (184)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 15
@@ -9533,6 +9778,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -9613,6 +9862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 9
@@ -9692,6 +9945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 4
@@ -9761,6 +10018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -9829,6 +10090,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -10018,6 +10283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10034,6 +10303,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (195)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -10104,6 +10377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -10172,6 +10449,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (198)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -10242,6 +10523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -10304,6 +10589,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
   m_PrefabInstance: {fileID: 402535927}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &384191268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3030149724805157520, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_Name
+      value: Obstacle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 37.610455
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -236.05423
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0015822822
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9999988
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 179.819
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
 --- !u!1001 &386922497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10315,6 +10657,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (139)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -10414,13 +10760,13 @@ Transform:
   - {fileID: 499889668}
   - {fileID: 1819830323}
   - {fileID: 1566738774}
-  - {fileID: 547946911}
-  - {fileID: 229081499}
   - {fileID: 162926460}
+  - {fileID: 1266422659}
   - {fileID: 1711708727}
-  - {fileID: 467173553601904276}
-  - {fileID: 128951518}
   - {fileID: 695707029}
+  - {fileID: 1393580041}
+  - {fileID: 1958120168}
+  - {fileID: 13295167}
   - {fileID: 1612066787}
   - {fileID: 1549368615}
   - {fileID: 904497380}
@@ -10470,6 +10816,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -10539,6 +10889,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -10659,6 +11013,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7442794224487470407, guid: 02e39039ff6cd1041997b7c2888a055b, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10675,6 +11033,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -10814,6 +11176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 4
@@ -10883,6 +11249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
@@ -10951,6 +11321,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -11090,6 +11464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (158)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 4
@@ -11169,6 +11547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -11238,6 +11620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -11306,6 +11692,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (168)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -11474,6 +11864,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (187)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -11781,6 +12175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (133)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -11843,6 +12241,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
   m_PrefabInstance: {fileID: 628665598}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &479764002
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3030149724805157520, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_Name
+      value: Obstacle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 67
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -67.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
 --- !u!1001 &480772746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11854,6 +12309,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -11964,6 +12423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12070,6 +12533,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 9
@@ -12138,6 +12605,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (185)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -12292,6 +12763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 30
@@ -12365,6 +12840,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (199)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -12497,6 +12976,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3bc9a448b1c59b4d90985e7f69c448f, type: 3}
+--- !u!1001 &531194448
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3030149724805157520, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_Name
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -73.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -226.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716584086656324605, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa464606d5df7604fb32c980ab69831e, type: 3}
 --- !u!1001 &537043913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12623,6 +13159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12639,6 +13179,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -12709,6 +13253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -12777,6 +13325,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -12852,6 +13404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
@@ -12909,11 +13465,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
---- !u!4 &547946911 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-  m_PrefabInstance: {fileID: 934853848}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &548251821 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
@@ -12930,6 +13481,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -13287,6 +13842,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13303,6 +13862,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -13412,6 +13975,10 @@ PrefabInstance:
     - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
       propertyPath: m_Name
       value: RaceTrackStraight 1 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13530,6 +14097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 900
@@ -13598,6 +14169,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (150)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -13712,6 +14287,10 @@ PrefabInstance:
     - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
       propertyPath: m_Name
       value: RaceTrackStraight 1 (08)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13913,6 +14492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13929,7 +14512,7 @@ GameObject:
   - component: {fileID: 643873177}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14181,6 +14764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 24
@@ -14329,6 +14916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
@@ -14397,6 +14988,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (145)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -14477,6 +15072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -14545,6 +15144,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (177)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -14806,6 +15409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 6
@@ -14986,6 +15593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (163)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -15043,6 +15654,83 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+--- !u!1001 &698711649
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1768923968}
+    m_Modifications:
+    - target: {fileID: 2630815748524575241, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_Name
+      value: FX_Explosion_Smoke
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092082114216064087, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092082114216064087, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b72e16591230315448c77c827b522ae1, type: 2}
+    - target: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0019492886
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.008023758
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0038481285
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000654537
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00826069
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.49999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
 --- !u!1001 &699713605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15054,6 +15742,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (140)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -15123,6 +15815,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (193)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -15292,6 +15988,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -15445,6 +16145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -15519,6 +16223,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d96d9e9177e89304f999f34101db29d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 25
+  powerup: {fileID: 107744, guid: 0782c4fdae5f1624ba26300a1dc7a0a7, type: 3}
+  hasPowerup: 0
+  powerupIndicator: {fileID: 1173104759}
+  powerUpDuration: 2
+  crashSound: {fileID: 8300000, guid: e7ee25a47d63b46cdaf65480d62b405c, type: 3}
+  explosionParticle: {fileID: 2014261385}
 --- !u!54 &720217564
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15551,6 +16262,155 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4889573618505782537, guid: 89ef373673b05894fb8d725b41657b83, type: 3}
   m_PrefabInstance: {fileID: 36396640}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &720217567
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720217560}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &721417785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 721417787}
+  - component: {fileID: 721417786}
+  m_Layer: 0
+  m_Name: SpawnManager (2)
+  m_TagString: Spawn1
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &721417786
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721417785}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.392218, y: 2.2247336, z: 13.670319}
+  m_Center: {x: -0.847768, y: 0.6123668, z: -4.230514}
+--- !u!4 &721417787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721417785}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 76.49, y: 1.58, z: -226.6}
+  m_LocalScale: {x: 2.3, y: 1, z: 0.3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &722335573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15562,6 +16422,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -15646,6 +16510,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -15790,6 +16658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -15863,6 +16735,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -16012,6 +16888,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 24
@@ -16085,6 +16965,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -16441,6 +17325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -16509,6 +17397,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -16811,6 +17703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -16894,6 +17790,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -17093,6 +17993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
@@ -17161,6 +18065,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (175)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -17306,6 +18214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
@@ -17419,6 +18331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17440,6 +18356,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (135)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -17509,6 +18429,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -17722,6 +18646,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (211)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 16
@@ -17874,6 +18802,67 @@ RectTransform:
   m_AnchoredPosition: {x: -670, y: -92.634}
   m_SizeDelta: {x: 211.8672, y: 63.3043}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &896023580
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 387659878}
+    m_Modifications:
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -118.3056
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 48.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -363.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_Name
+      value: RaceTrackStraight 1 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
 --- !u!4 &904497380 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
@@ -17895,6 +18884,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -17964,6 +18957,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (188)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -18049,6 +19046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 9
@@ -18118,6 +19119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 6
@@ -18186,6 +19191,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -18282,6 +19291,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (160)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -18414,63 +19427,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2984c739f1cc4064192b4ab3b1676c07, type: 3}
---- !u!1001 &934853848
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 387659878}
-    m_Modifications:
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -118.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 48.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -375.3111
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_Name
-      value: RaceTrackStraight 1 (15)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
 --- !u!1001 &937794685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18551,6 +19507,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (121)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -18710,6 +19670,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -18819,6 +19783,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18835,6 +19803,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (190)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -18986,8 +19958,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.30593523, y: 0.000000016381374, z: -0.000000005264037, w: 0.95205235}
-  m_LocalPosition: {x: -65.2, y: 5.5768, z: -341.74}
+  m_LocalRotation: {x: 0.30593523, y: -0.000000016381374, z: 0.000000005264037, w: 0.95205235}
+  m_LocalPosition: {x: -65.2, y: 5.5768, z: -288.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19098,6 +20070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (201)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 6
@@ -19182,6 +20158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -19250,6 +20230,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -19413,6 +20397,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (176)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -19626,6 +20614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 24
@@ -19749,6 +20741,10 @@ PrefabInstance:
     - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
       propertyPath: m_Name
       value: RaceTrackStraight 1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24865,6 +25861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 24
@@ -24939,6 +25939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (194)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -25012,6 +26016,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (189)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -25092,6 +26100,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -25160,6 +26172,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -25304,6 +26320,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -25413,6 +26433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallTrack
       objectReference: {fileID: 0}
+    - target: {fileID: 3243449058820865549, guid: 67d51bc0f82ae9044a6d728c544f5932, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25429,6 +26453,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (191)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -25504,6 +26532,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -25573,6 +26605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -25641,6 +26677,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -25716,6 +26756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 4
@@ -25784,6 +26828,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -25931,6 +26979,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -26189,6 +27241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 24
@@ -26263,6 +27319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (173)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 30
@@ -26336,6 +27396,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (166)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -26451,6 +27515,71 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+--- !u!1001 &1147956660
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 387659878}
+    m_Modifications:
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -118.3056
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 48.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -393.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_Name
+      value: RaceTrackStraight 1 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26513,6 +27642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26529,6 +27662,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -26599,6 +27736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (192)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -26666,6 +27807,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4429112058861696, guid: b3bc9a448b1c59b4d90985e7f69c448f, type: 3}
   m_PrefabInstance: {fileID: 101838590}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1173104759 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1742899641471652, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
+  m_PrefabInstance: {fileID: 172471807}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1173282968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26677,6 +27823,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (159)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -26826,6 +27976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (208)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -26904,6 +28058,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (125)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -27088,6 +28246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27109,6 +28271,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -27293,6 +28459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corner (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7442794224487470407, guid: 02e39039ff6cd1041997b7c2888a055b, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27362,8 +28532,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215106988}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.30593523, y: 0.000000016381374, z: -0.000000005264037, w: 0.95205235}
-  m_LocalPosition: {x: -65.2, y: 5.5768, z: -341.74}
+  m_LocalRotation: {x: 0.30593523, y: -0.000000016381374, z: 0.000000005264037, w: 0.95205235}
+  m_LocalPosition: {x: -65.2, y: 5.5768, z: -288.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27381,6 +28551,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -27518,6 +28692,59 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3bc9a448b1c59b4d90985e7f69c448f, type: 3}
+--- !u!1 &1223319691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1223319693}
+  - component: {fileID: 1223319692}
+  m_Layer: 0
+  m_Name: SpawnManager (3)
+  m_TagString: Spawn1
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1223319692
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223319691}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.171852, y: 2.2247336, z: 13.670319}
+  m_Center: {x: -0.2121237, y: 0.6123668, z: -4.230514}
+--- !u!4 &1223319693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223319691}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -64.9, y: 1.56, z: -194.8}
+  m_LocalScale: {x: 2.3, y: 1, z: 0.3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1226548819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27529,6 +28756,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -27667,6 +28898,10 @@ PrefabInstance:
     - target: {fileID: 1569838882627388, guid: 72b0d84d8d002be4d9144403456c0541, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569838882627388, guid: 72b0d84d8d002be4d9144403456c0541, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4180330986342628, guid: 72b0d84d8d002be4d9144403456c0541, type: 3}
       propertyPath: m_LocalScale.x
@@ -27809,6 +29044,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
   m_PrefabInstance: {fileID: 699713605}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1266422659 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+  m_PrefabInstance: {fileID: 1282466417}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1267404501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27820,6 +29060,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -27957,6 +29201,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3bc9a448b1c59b4d90985e7f69c448f, type: 3}
+--- !u!1001 &1282466417
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 387659878}
+    m_Modifications:
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -118.495605
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 48.899998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -317
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_Name
+      value: RaceTrackStraight 1 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
 --- !u!4 &1283270218 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
@@ -28278,6 +29583,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -28510,6 +29819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (149)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 9
@@ -28578,6 +29891,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (148)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -28732,6 +30049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
@@ -28816,6 +30137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 9
@@ -28885,6 +30210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 4
@@ -28953,6 +30282,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -29027,6 +30360,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29221,6 +30558,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4429112058861696, guid: b3bc9a448b1c59b4d90985e7f69c448f, type: 3}
   m_PrefabInstance: {fileID: 220535856}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1393580041 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+  m_PrefabInstance: {fileID: 1930196187}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1395495998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29232,6 +30574,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -29301,6 +30647,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -29380,6 +30730,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -29564,6 +30918,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29620,6 +30978,10 @@ PrefabInstance:
     - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
       propertyPath: m_Name
       value: RaceTrackStraight 1 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29711,6 +31073,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -29855,6 +31221,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
@@ -29928,6 +31298,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (206)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -30003,6 +31377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (181)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 15
@@ -30071,6 +31449,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -30145,6 +31527,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -30224,6 +31610,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -30354,6 +31744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30375,6 +31769,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -30534,6 +31932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -30658,6 +32060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30674,6 +32080,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -30868,6 +32278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 950377666402935899, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30953,6 +32367,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -31152,6 +32570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31243,6 +32665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
@@ -31311,6 +32737,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (205)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -31385,6 +32815,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -31497,6 +32931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 15
@@ -31566,6 +33004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (179)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 15
@@ -31634,6 +33076,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (203)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -31714,6 +33160,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -31782,6 +33232,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -32008,6 +33462,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (146)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -32236,6 +33694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 24
@@ -32379,6 +33841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (142)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 9
@@ -32452,6 +33918,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -32631,6 +34101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corner (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7442794224487470407, guid: 02e39039ff6cd1041997b7c2888a055b, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32717,6 +34191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -32789,6 +34267,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
   m_PrefabInstance: {fileID: 122587986}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1717626751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1717626753}
+  - component: {fileID: 1717626752}
+  m_Layer: 0
+  m_Name: SpawnManager (1)
+  m_TagString: Spawn1
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1717626752
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717626751}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.171852, y: 2.2247336, z: 13.670319}
+  m_Center: {x: -0.2121237, y: 0.6123668, z: -4.230514}
+--- !u!4 &1717626753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717626751}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.5, y: 1.56, z: -68.8}
+  m_LocalScale: {x: 2.3, y: 1, z: 0.3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1718746936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32840,6 +34371,10 @@ PrefabInstance:
     - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
       propertyPath: m_Name
       value: RaceTrackStraight 1 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33087,6 +34622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33118,6 +34657,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (169)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -33202,6 +34745,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -33489,6 +35036,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (196)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -33556,6 +35107,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
   m_PrefabInstance: {fileID: 2101371966}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1768923968 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1916099382319335109, guid: 89ef373673b05894fb8d725b41657b83, type: 3}
+  m_PrefabInstance: {fileID: 36396640}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1770233451 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
@@ -33613,6 +35169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33629,6 +35189,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (212)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -33908,6 +35472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33924,6 +35492,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -34014,6 +35586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (174)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 30
@@ -34082,6 +35658,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -34207,6 +35787,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34223,6 +35807,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (172)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -34292,6 +35880,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -34471,6 +36063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34543,6 +36139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34559,6 +36159,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (162)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -34629,6 +36233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (154)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 4
@@ -34697,6 +36305,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (118)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -34841,6 +36453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
@@ -34909,6 +36525,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (157)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -35019,6 +36639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35098,63 +36722,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
   m_PrefabInstance: {fileID: 737530579}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1878097982
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 387659878}
-    m_Modifications:
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -118.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 48.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -405.3011
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
-      propertyPath: m_Name
-      value: RaceTrackStraight 1 (16)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
 --- !u!4 &1882541458 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
@@ -35171,6 +36738,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (165)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -35256,6 +36827,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -35324,6 +36899,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -35451,63 +37030,83 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3bc9a448b1c59b4d90985e7f69c448f, type: 3}
---- !u!1001 &1901684288
+--- !u!1001 &1902468507
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 387659878}
+    m_TransformParent: {fileID: 720217565}
     m_Modifications:
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+    - target: {fileID: 4542316859867336935, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
+      propertyPath: ballSpeed
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542316859867336935, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
+      propertyPath: ballPrefab
+      value: 
+      objectReference: {fileID: 2586371270060327706, guid: 9f258b2c9d4628344998cd48a39c33c2, type: 3}
+    - target: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.6666665
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -118.315605
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+    - target: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 48.9
+      value: 4.8863997
       objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+    - target: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -434.85962
+      value: -0.7350158
       objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+    - target: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+    - target: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+    - target: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+    - target: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+    - target: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+    - target: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+    - target: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+    - target: {fileID: 8592166103833727685, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
       propertyPath: m_Name
-      value: RaceTrackStraight 1
+      value: Small_Cannon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
 --- !u!4 &1907704686 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
@@ -35565,6 +37164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35581,6 +37184,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -35664,6 +37271,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
   m_PrefabInstance: {fileID: 813925746}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1930196187
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 387659878}
+    m_Modifications:
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -118.3056
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 48.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -423.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_Name
+      value: RaceTrackStraight 1 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
 --- !u!4 &1931473316 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
@@ -35731,6 +37399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35747,6 +37419,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (180)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -35835,6 +37511,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
   m_PrefabInstance: {fileID: 360250624}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1958120168 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3465125597665769471, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+  m_PrefabInstance: {fileID: 1147956660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1961998931 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
@@ -35866,6 +37547,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (186)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -36030,6 +37715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 24
@@ -36143,6 +37832,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4429112058861696, guid: b3bc9a448b1c59b4d90985e7f69c448f, type: 3}
   m_PrefabInstance: {fileID: 585503474}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &2014261383 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+  m_PrefabInstance: {fileID: 698711649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2014261385 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 9125212449759046732, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+  m_PrefabInstance: {fileID: 698711649}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2015536079 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2758695636158637239, guid: 67d51bc0f82ae9044a6d728c544f5932, type: 3}
@@ -36159,6 +37858,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -36328,6 +38031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -36466,6 +38173,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (182)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 50
@@ -36561,6 +38272,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -36686,6 +38401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36702,6 +38421,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -36782,6 +38505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (167)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 9
@@ -36850,6 +38577,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (156)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -36920,6 +38651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (210)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -36982,63 +38717,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
   m_PrefabInstance: {fileID: 1217488164}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2084356213
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 387659878}
-    m_Modifications:
-    - target: {fileID: 467173554205048545, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -118.525604
-      objectReference: {fileID: 0}
-    - target: {fileID: 467173554205048545, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 48.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 467173554205048545, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -316.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 467173554205048545, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 467173554205048545, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 467173554205048545, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 467173554205048545, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 467173554205048545, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 467173554205048545, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 467173554205048545, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 950377666402935899, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
-      propertyPath: m_Name
-      value: RaceTrackStraight
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
 --- !u!4 &2086555427 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
@@ -37055,6 +38733,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -37124,6 +38806,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (200)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -37203,6 +38889,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -37313,6 +39003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 950377666402935899, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37329,6 +39023,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -37399,6 +39097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (137)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -37468,6 +39170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (207)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 16
@@ -37525,6 +39231,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+--- !u!4 &2107967758 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6359376215950095725, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
+  m_PrefabInstance: {fileID: 1902468507}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2110390269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37536,6 +39247,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (202)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -37680,6 +39395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -37758,6 +39477,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -37868,6 +39591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTrackStraight 1 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149494395562575287, guid: 0cfe4bac63787de48b3ca6eb87389956, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37953,6 +39680,10 @@ PrefabInstance:
     - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_Name
       value: Block_Cap_Snow (204)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687718367011432, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4469188421530564, guid: ce0b211975ef73d4b8ced21c24b30114, type: 3}
       propertyPath: m_LocalScale.x
@@ -38105,11 +39836,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9201204612189226218, guid: 63ba41f0855dca744be9c4c84b73bd3b, type: 3}
   m_PrefabInstance: {fileID: 8733953632088728873}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &467173553601904276 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 467173554205048545, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
-  m_PrefabInstance: {fileID: 2084356213}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3638138588554382473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38191,6 +39917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Cap_Snow (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5272510692412407543, guid: 63ba41f0855dca744be9c4c84b73bd3b, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 9201204612189226218, guid: 63ba41f0855dca744be9c4c84b73bd3b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1006.5735
@@ -38255,3 +39985,10 @@ SceneRoots:
   - {fileID: 1722593795}
   - {fileID: 210066323}
   - {fileID: 1215106990}
+  - {fileID: 1717626753}
+  - {fileID: 1223319693}
+  - {fileID: 721417787}
+  - {fileID: 172471807}
+  - {fileID: 531194448}
+  - {fileID: 384191268}
+  - {fileID: 479764002}
